@@ -11,7 +11,31 @@
     <div class="container">
       <h1>Celebrity Dating Quiz</h1>
 
-      <p>Take this quiz to find out </p>
+      <p>Take this quiz to find out which Celebrity, Character, or Public figure you are most compatible with.</p>
+
+      <form id="quiz">
+        <div class="form-group">
+          <label for="age">Your Age:</label>
+          <input type="text" id="age">
+          <label for="gender">Your Gender:</label>
+          <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="neither">Neither</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="birth">Your Birthday:</label>
+          <input type="date" id="birth">
+          <label for="pet">Your favorite pet:</label>
+          <select id="pet">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="dragon">Dragon</option>
+          </select>
+        </div>
+        <button type="submit" id="date">Who is your Date?</button>
+      </form>
     </div>
   </body>
 </html>
